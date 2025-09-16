@@ -402,7 +402,7 @@
                      keywordCard.innerHTML = `
                         <div>
                             <p class="font-bold text-yellow-400">${kw.keyword}</p>
-                            <p class="text-sm text-gray-300 truncate">${kw.reply_text || kw.reply_prompt || 'Flex/Image/RichMenu/Template'}</p>
+                            <p class="text-sm text-gray-300 truncate text-wrap">${kw.reply_text || kw.reply_prompt || 'Flex/Image/RichMenu/Template'}</p>
                         </div>
                         <div class="flex items-center space-x-2">
                             ${kw.require_vip ? '<span class="text-xs font-bold text-yellow-400 bg-yellow-900 px-2 py-1 rounded-full">VIP</span>' : ''}
